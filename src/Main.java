@@ -37,23 +37,23 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за неделю равна " + minPay + " рублей");
         int payAverage[] = generateRandomArray(5);
-        for (int current : payAverage);
+        for (int current : payAverage) ;
         System.out.println(Arrays.toString(payAverage));
         int sumForAv = 0;
-        int average=0;
+        int average = 0;
         for (int i = 0; i < payMonth.length; i++) {
             sumForAv += payAverage[i];
-            average=sumForAv/payAverage.length;
+            average = sumForAv / payAverage.length;
         }
-System.out.println("Средняя сумма трат за месяц составляет "+average+" рублей");
+        System.out.println("Средняя сумма трат за месяц составляет " + average + " рублей");
 
-        char []reverseFullName={'n','a','v','I',' ','v','o','n','a','v','I'};
-        for(int i=reverseFullName.length-1; i>=0;i--) {
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
     }
 
-    }
+}
 
 
 
